@@ -127,3 +127,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pyc
+*.db
+*~
+.*
+*.py.bak
+
+
+/site/
+/htmlcov/
+/coverage/
+/build/
+/dist/
+/*.egg-info/
+/env/
+MANIFEST
+coverage.*
+
+!.github
+!.gitignore
+!.pre-commit-config.yaml
